@@ -1,6 +1,12 @@
 // import functions and grab DOM elements
-import { fetchPosts, getUser, checkAuth, logout } from './fetch-utils.js';
+import { fetchPosts, getUser, logout } from './fetch-utils.js';
 import { renderPost } from './render-utils.js';
+
+const createButtonEl = document.getElementById('create-button');
+
+createButtonEl.addEventListener('click', () => {
+    location.replace('./create-page');
+});
 
 // let state
 const postsEl = document.getElementById('sticky-notes');
@@ -39,4 +45,3 @@ if (user) {
 // use user input to update state
 // update DOM to reflect the new state
 loadData();
-checkAuth();

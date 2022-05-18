@@ -49,3 +49,12 @@ export async function signInUser(email, password) {
 
     return response.user;
 }
+
+export async function createPost(post) {
+    const response = await client.from('wizdom').insert(post);
+    if (response.data) {
+        return response.data;
+    } else {
+        console.error(response.error);
+    }
+}
