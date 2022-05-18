@@ -4,9 +4,9 @@ body {
     
     --color1: white;
     --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --color3: rgb(120, 231, 90);
+    --color4: rgb(254, 188, 31);
+    --color5: rgb(234, 54, 102);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -56,7 +56,7 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: var(--color5);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
