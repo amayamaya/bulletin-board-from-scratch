@@ -7,7 +7,7 @@ const postsEl = document.getElementById('sticky-notes');
 // fetches the array from supabase
 async function loadData() {
     const nuggetArray = await fetchPosts();
-    console.log('hi from loadData', nuggetArray);
+    // console.log('hi from loadData', nuggetArray);
     for (let nugget of nuggetArray) {
         const postDiv = renderPost(nugget);
         postsEl.append(postDiv);
@@ -39,4 +39,4 @@ if (user) {
 // use user input to update state
 // update DOM to reflect the new state
 loadData();
-// checkAuth();
+checkAuth();
