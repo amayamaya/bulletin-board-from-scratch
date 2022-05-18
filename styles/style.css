@@ -1,19 +1,17 @@
-
 body {
     /* feel free to update these css variables for a quick theme */
-    
+
     --color1: white;
-    --color2: white;
+    --color2: rgb(149, 1, 255);
     --color3: rgb(120, 231, 90);
     --color4: rgb(254, 188, 31);
     --color5: rgb(234, 54, 102);
 
-
     --header-height: 80px;
-    --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
     --gutter: 30px;
     --footer-height: 25px;
-    
+
     background-color: var(--color2);
 }
 
@@ -27,25 +25,24 @@ main {
 
 section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    width: 25vw;
-    height: 25vw ;
+    color: var(--color3);
 }
 
 header {
     display: flex;
-    justify-content: flex-end;
-    background-color: var(--color5);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--color2);
+    align-items: center;
+    padding: 3em;
 }
-
 
 h2 {
     font-size: 1.8rem;
@@ -68,7 +65,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
@@ -81,9 +78,9 @@ footer {
 }
 
 button {
-    color: var(--color3);
-    background-color: var(--color4);
-    border: var(--color4) dashed;
-    border-radius: .25em;
+    color: var(--color4);
+    background-color: var(--color2);
+    border: var(--color3) dashed;
+    border-radius: 0.25em;
     align-content: center;
 }
