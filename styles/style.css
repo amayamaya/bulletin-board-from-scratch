@@ -7,27 +7,13 @@ body {
     --color3: rgb(120, 231, 90);
     --color4: rgb(254, 188, 31);
     --color5: rgb(234, 54, 102);
-    
-    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-        
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
 
-    /* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
-    
+
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
 }
 
@@ -40,8 +26,6 @@ main {
 }
 
 section {
-    background-color: var(--color5);
-    max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +34,8 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    width: 25vw;
+    height: 25vw ;
 }
 
 header {
@@ -71,6 +56,11 @@ h2 {
     margin-right: 20px;
 }
 
+div.gutter-right {
+    -ms-flex-align: center;
+    align-content: center;
+}
+
 header img {
     height: var(--header-height);
 }
@@ -88,4 +78,12 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+button {
+    color: var(--color3);
+    background-color: var(--color4);
+    border: var(--color4) dashed;
+    border-radius: .25em;
+    align-content: center;
 }

@@ -1,0 +1,17 @@
+.posts {
+    padding: 1em;
+    margin: 1em;
+    background-color: var(--color5);
+    font-family: 'VT323', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    width: 25vw;
+    height: 25vw;
+}
+
+.sticky-notes {
+    
+}

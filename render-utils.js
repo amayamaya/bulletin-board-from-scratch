@@ -10,7 +10,10 @@ export function renderPost(postData) {
     nuggetEl.textContent = postData.nugget;
     usernameEl.textContent = postData.username;
     originEl.textContent = postData.origin;
+    console.log(postData);
 
     postsEl.append(nuggetEl, usernameEl, originEl);
     return postsEl;
 }
+
+
