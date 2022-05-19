@@ -1,14 +1,24 @@
 .posts {
-    padding: 1em;
     margin: 1em;
     background-color: var(--color5);
     font-family: 'VT323', monospace;
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 2em;
+    padding: .5em;
     width: 25vw;
     height: 25vw;
+    font-size: .75em;
+    box-shadow: rgba(128, 3, 30, 0.35) 0px -50px 36px -28px inset;
+    border-radius: .5em;
+}
+
+.posts:nth-child(2n) {
+    color: rgb(5, 11, 174);
+}
+
+.posts p {
+    margin: 1.5em;
 }
 
 .sticky-notes {
@@ -19,3 +29,8 @@ h1 {
     font-family: 'Press Start 2P', cursive;
     color: var(--color4);
 }
+
+.nugget {
+    font-size: 1.5em;
+}
+

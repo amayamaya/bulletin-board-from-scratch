@@ -5,17 +5,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');</style>
+        <link rel="stylesheet" href="../styles/reset.css" />
+        <link rel="stylesheet" href="../styles/style.css" />
+        <link rel="stylesheet" href="../styles/home.css" /> 
+        <link rel="stylesheet" href="./create-page.css" />         
         <title>Document</title>
     </head>
     <body>
         <div class="create-container">
-            <h3>Share Your Wisdom</h3>
-            <form id="create-post">
-                <label>Nugget</label><input type="text" name="nugget" id="post-nugget" />
-                <label>Username</label><input type="text" name="username" id="post-username">
-                <label>Origin</label><input type="text" name="origin" id="post-origin" />
-                <button>Contribute</button>
-            </form>
+            <h1>Share Your wizDOM</h1>
+            <section>
+                <form class=nugget-form id="create-post">
+                    <label>Nugget</label><input type="text" name="nugget" id="post-nugget" />
+                    <label>Username</label><input type="text" name="username" id="post-username">
+                    <label>Origin</label><input type="text" name="origin" id="post-origin" />
+                    <button>Contribute</button>
+                </form>
+            </section>
         </div>
         <script type="module" src="./create-page.js"></script>
     </body>

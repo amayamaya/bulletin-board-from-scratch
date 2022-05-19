@@ -5,7 +5,7 @@ const createPostForm = document.getElementById('create-post');
 createPostForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const data = new FormData(createPostForm);
-    const postObject = { 
+    const postObject = {
         nugget: data.get('nugget'),
         username: data.get('username'),
         origin: data.get('origin'),
