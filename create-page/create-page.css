@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 8em;
+    margin: 0em 4em 4em 4em;
     padding: 2em;
-
+    color: aqua;
 }
 
 label {
@@ -17,8 +17,9 @@ button {
     margin: 1em;
 }
 
-header h1 {
+body h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 4em 4em 0em 4em;
 }
