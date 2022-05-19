@@ -2,10 +2,11 @@ body {
     /* feel free to update these css variables for a quick theme */
 
     --color1: white;
-    --color2: rgb(149, 1, 255);
-    --color3: rgb(120, 231, 90);
+    --color2: rgb(166, 50, 248);
+    --color3: rgb(81, 135, 42);
     --color4: rgb(254, 188, 31);
-    --color5: rgb(234, 54, 102);
+    --color5: rgb(176, 226, 229);
+    --color6: rgb(0, 255, 255); 
 
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
@@ -79,7 +80,9 @@ footer {
 button {
     color: var(--color4);
     background-color: var(--color2);
-    border: var(--color3) dashed;
+    border: var(--color6) dashed;
     border-radius: 0.25em;
     align-content: center;
+    margin: .25em;
+    font-family: 'VT323', monospace;
 }
