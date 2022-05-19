@@ -1,0 +1,25 @@
+.nugget-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 4em 4em 4em;
+    padding: 2em;
+    color: aqua;
+}
+
+label {
+    font-family: 'VT323', monospace;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+button {
+    margin: 1em;
+}
+
+body h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em 4em 0em 4em;
+}

@@ -1,0 +1,19 @@
+div .auth-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8em;
+    background-color: var(--color5);
+    border: red 10px;
+}
+
+label {
+    font-family: 'VT323', monospace;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+body {
+    margin:9em;
+    color: var(--color5);
+}
