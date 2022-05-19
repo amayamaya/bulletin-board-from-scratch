@@ -1,5 +1,5 @@
 .posts {
-    margin: 2em;
+    margin: 2.5em;
     background-color: var(--color5);
     font-family: 'VT323', monospace;
     display: flex;
@@ -11,7 +11,7 @@
     font-size: 0.75em;
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
         rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
-        rgb(255, 85, 85) 0px 0px 0px 15px;
+        rgb(255, 85, 85) 0px 0px 0px 15px,  rgb(99, 39, 202) 0px 5px 10px 17px; 
     border-radius: 0.5em;
 }
 
@@ -33,7 +33,6 @@
 
 h1 {
     font-family: 'Press Start 2P', cursive;
-    font-size: em;
     color: var(--color4);
 }
 
